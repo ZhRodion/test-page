@@ -1,9 +1,275 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>"Туц Сарафан"</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="page">
+		<!-- Хэдэр -->
+		<header class="header">
+			<nav class="main-nav">
+				<a class="main-nav__logo-link" href="/">
+					<img class="main-nav__logo classic-logo" src="#" alt="." />
+				</a>
+				<p class="main-nav__time-desc">пн-вс 10:00-21:00</p>
+				<p class="main-nav__time-desc">Лента 08:00-22:00</p>
+				<!-- Текстовое поле -->
+				<div class="search-field">
+					<img class="search-field__icon" src="#" />
+					<input class="search-field__text" type="text" />
+				</div>
+				<!-- Кнопка открыть/закрыть меню -->
+				<button class="main-nav__toggle" type="button">
+					<span class="visually-hidden">Закрыть меню / Открыть меню.</span>
+					<div class="burger-button burger-button--closed">
+						<span class="burger-button__strip"></span>
+						<span class="burger-button__strip"></span>
+						<span class="burger-button__strip"></span>
+					</div>
+				</button>
+				<!-- Само меню -->
+				<div class="main-nav__wrapper">
+					<ul class="nav-list nav-list--closed">
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Магазины</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Кафе и рестораны</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Услуги и сервисы</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Развлечения</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">О нас</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">События</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Галерея</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Аренда</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Карта ТЦ</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Контакты</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Вакансии</a>
+						</li>
+						<li class="nav-list__item">
+							<a class="main-nav__link link" href="#">Тендеры</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Хлебные крошки -->
+
+		<!-- Основная секция -->
+		<section class="hero">
+			<h1 class="hero__title">Аренда в ТУЦ “Сарафан”</h1>
+			<p class="hero__subtitle">
+				Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул.
+				Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в
+				аренду от собственника от 25 до 1000 кв. м.
+			</p>
+			<a class="hero__link"
+				>Скачать презентацию
+				<img src="#" alt="" />
+			</a>
+		</section>
+		<!-- Приемущества -->
+		<section class="catchy-text">
+			<h2 class="catchy-text__title">
+				Преимущества аренды в нашем торговом центре:
+			</h2>
+			<!-- Список приемуществ -->
+			<ul class="advantages-list">
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						ТЦ «Сарафан» находится в 5 минутах езды от центра города на площади
+						Московского вокзала на одной из самых оживленных улиц города –
+						Красноармейский проспект.
+					</p>
+				</li>
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						Рядом жилой массив, пересечение основных транспортных и пешеходных
+						потоков –конечная остановка общественного транспорта,
+						железнодорожный вокзал.
+					</p>
+				</li>
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов,
+						более 500 машиномест, удобный подъезд.
+					</p>
+				</li>
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной
+						целевой аудитории
+					</p>
+				</li>
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						Демократичные цены за аренду площади
+					</p>
+				</li>
+				<li class="advantages-list__item">
+					<img class="advantages-list__dote" src="#" alt="" />
+					<p class="advantages-list__text">
+						У нас Вы можете арендовать площадь под магазины белья, одежды и
+						обуви, салоны, точки общепита и др.
+					</p>
+				</li>
+			</ul>
+			<p class="catchy-text__desk">
+				Открытие торговой точки в одном из оживленных мест города обеспечит
+				доходность, развитие и процветание Вашего бизнеса.
+			</p>
+			<b class="catchy-text__lead-text"
+				>Более 130 бутиков и магазинов уже арендуют у нас помещения</b
+			>
+			<!-- Слайдер -->
+			<div class="sider-wrapper"></div>
+			<!-- Список магазинов-->
+			<ul class="shops-list">
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис, Familia,
+						Читай город, Тутанхамон, Л'Этуаль
+					</p>
+				</li>
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri Karra,
+						Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace, Tonnelli,
+						Milavitsa, и др.
+					</p>
+				</li>
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
+					</p>
+				</li>
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая сдоба
+					</p>
+				</li>
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
+					</p>
+				</li>
+				<li class="shops-list__item">
+					<img class="shops-list__dote" src="#" />
+					<p class="shops-list__text">
+						Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры,
+						салоны штор, текстиль Missis Hatson и Home TEX, салон Арт-Самовар,
+						посуда, подарки, картины, сувениры и другие.
+					</p>
+				</li>
+			</ul>
+		</section>
+		<!-- Галерея -->
+		<section class="photo-galery">
+			<h2 class="visually-hidden">Галерея нашего торгового центра</h2>
+			<!-- Статистические данные -->
+			<ol class="mall-data-list">
+				<li class="mall-data-list__item">
+					<p class="mall-data-list__caption">Общая площадь торгового центра</p>
+					<b class="mall-data-list__lead">25 816 м2</b>
+				</li>
+				<li class="mall-data-list__item">
+					<p class="mall-data-list__caption">Площадь, сдаваемая в аренду</p>
+					<b class="mall-data-list__lead">16 675 м2</b>
+				</li>
+				<li class="mall-data-list__item">
+					<p class="mall-data-list__caption">Парковка (машиномест)</p>
+					<b class="mall-data-list__lead">500</b>
+				</li>
+				<li class="mall-data-list__item">
+					<p class="mall-data-list__caption">Посещаемость (в неделю)</p>
+					<b class="mall-data-list__lead">100 000 чел</b>
+				</li>
+			</ol>
+			<!-- Сама галерея -->
+			<ul class="photo-galery-list">
+				<li class="photo-galery-list__item">
+					<picture class="photo-galery-list__picture">
+						<img class="photo-galery-list__photo" src="#" alt="" />
+					</picture>
+				</li>
+				<li class="photo-galery-list__item">
+					<picture class="photo-galery-list__picture">
+						<img class="photo-galery-list__photo" src="#" alt="" />
+					</picture>
+				</li>
+				<li class="photo-galery-list__item">
+					<picture class="photo-galery-list__picture">
+						<img class="photo-galery-list__photo" src="#" alt="" />
+					</picture>
+				</li>
+				<li class="photo-galery-list__item">
+					<picture class="photo-galery-list__picture">
+						<img class="photo-galery-list__photo" src="#" alt="" />
+					</picture>
+				</li>
+				<li class="photo-galery-list__item">
+					<picture class="photo-galery-list__picture">
+						<img class="photo-galery-list__photo" src="#" alt="" />
+					</picture>
+				</li>
+			</ul>
+		</section>
+		<!-- Футер -->
+		<footer class="page-footer">
+			<img class="page-footer__logo" src="#" alt="" />
+			<!-- Поле поиска -->
+			<div class="search-field">
+				<img class="search-field__icon" src="#" />
+				<input class="search-field__text" type="text" />
+			</div>
+			<a class="page-footer__link" href="#" target="_blank"
+				>Политика конфиденциальности</a
+			>
+			<a class="page-footer__link" href="#" target="_blank"
+				>Политика конфиденциальности</a
+			>
+			<p class="page-footer__schedule">ТЦ Сарафан: 10:00-21:00</p>
+			<p class="page-footer__schedule">Лента: 08:00-22:00</p>
+			<a class="page-footer__contacts-number" href="tel:+7 (4872) 33-80-55"
+				>+7 (4872) 33-80-55</a
+			>
+			<ul class="social-media-list">
+				<li class="social-media-list__item">
+					<a class="social-media-list__link" href="#"> </a>
+				</li>
+				<li class="social-media-list__item">
+					<a class="social-media-list__link" href="#"> </a>
+				</li>
+			</ul>
+		</footer>
+	</body>
 </html>

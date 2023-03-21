@@ -1,1 +1,40 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее*/
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  word-break: break-word;
+}
+.visually-hidden {
+    visibility: hidden;
+    margin: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+// Обнуление общих стилей
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+p, b {
+margin: 0;
+padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+border: 0;
+}
