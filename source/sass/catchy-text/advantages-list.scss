@@ -1,0 +1,16 @@
+.advantages-list {
+  max-width: 100%;
+  padding: 34px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: start;
+}
+.advantages-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+.advantages-list__dote {
+  padding: 7px 0 0;
+}

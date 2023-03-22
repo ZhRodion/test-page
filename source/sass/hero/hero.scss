@@ -1,0 +1,23 @@
+.hero {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero__image {
+  width: 100%;
+  order: -1;
+}
+.hero__title {
+  width: 50%;
+  padding: 25px 0 0;
+  margin: 0 auto;
+}
+.hero__subtitle {
+  padding: 24px 20px 0;
+}
+.hero__link {
+  padding: 35px 21px 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

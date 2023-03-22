@@ -1,0 +1,36 @@
+.main-nav {
+  max-width: 100%;
+  min-height: 90px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.09);
+}
+
+// Кнопка меню
+.main-nav__toggle {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  background-color: #ffffff;
+}
+// Меню
+.main-nav__wrapper {
+max-width: 100%;
+min-height: 100%;
+@media (min-width: $tablet) {
+ max-width: 100%;
+  min-height: 20px;
+}
+}
+
+.nav-list {
+margin: 0;
+padding: 0;
+}
+
+.main-nav__link {
+display: block;
+color: #000000;
+}

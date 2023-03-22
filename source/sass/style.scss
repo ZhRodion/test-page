@@ -1,5 +1,25 @@
 /* GLOBAL */
 @import "./global/variables.scss";
 @import "./global/global.scss";
-
 /* BLOCKS */
+// Хэдер
+@import "./header/header.scss";
+@import "./header/main-nav.scss";
+@import "./header/nav-list.scss";
+@import "./header/burger-button.scss";
+// Хироу
+@import "./hero/hero.scss";
+@import "./hero/breadcrumbs.scss";
+// Притягивающий текст 
+@import "./catchy-text/catchy-text.scss";
+@import "./catchy-text/advantages-list.scss";
+@import "./catchy-text/shops-list.scss";
+// Галерея
+@import "./photo-galery/photo-galery.scss";
+@import "./photo-galery/mall-data-list.scss";
+// Футер
+@import "./footer/page-footer.scss";
+@import "./footer/search-field.scss";
+@import "./footer/location-data.scss";
+@import "./footer/time-data.scss";
+@import "./footer/social-media-list.scss";

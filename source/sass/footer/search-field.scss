@@ -1,0 +1,21 @@
+.search-field {
+  margin: 22px 0 0;
+  position: relative;
+}
+.search-field__text {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0 10px 12px;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.17);
+  border: 0;
+  border-radius: 88px;
+}
+.search-field__icon {
+  position: absolute;
+  right: 17px;
+    top: 10px;
+}
+.search-field__text::placeholder {
+color: #C4C4C4;
+}

@@ -1,0 +1,15 @@
+.breadcrumbs {
+order: -1;
+background-color: #ffffff;
+}
+.breadcrumbs-list {
+  padding: 14px 20px 10px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.breadcrumbs-list li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 8px;
+  content: ">";
+}

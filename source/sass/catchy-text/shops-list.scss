@@ -1,0 +1,16 @@
+.shops-list {
+  margin: 34px 0 0;
+  padding: 0 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: start;
+}
+.shops-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
+.shops-list__dote {
+  padding: 7px 0 0;
+}

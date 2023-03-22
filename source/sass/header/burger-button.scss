@@ -1,0 +1,68 @@
+.burger-button {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  position: relative;
+}
+.burger-button--opened {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: 7%;
+  left: 0;
+  right: 0;
+}
+.burger-button--closed {
+  width: 40px;
+  height: 40px;
+-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+position: relative;
+bottom: 15%;
+left: 0;
+right: 0;
+}
+.burger-button__strip {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 33px;
+  background-color: #CD3B31;
+  border-radius: 17px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+.burger-button__strip:nth-child(1) {
+  top: 10px;
+}
+.burger-button__strip:nth-child(2) {
+  width: 18px;
+  top: 20px;
+  left: 14px;
+}
+.burger-button__strip:nth-child(3) {
+  top: 30px;
+}
+.burger-button.burger-button--opened span:nth-child(1) {
+width: 33px;
+  top: 12px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.burger-button.burger-button--opened span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+.burger-button.burger-button--opened span:nth-child(3) {
+width: 33px;
+  top: 12px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
