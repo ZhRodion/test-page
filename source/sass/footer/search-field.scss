@@ -19,3 +19,11 @@
 .search-field__text::placeholder {
 color: #C4C4C4;
 }
+// Хэдер планшет 
+.main-nav .search-field {
+display: none;
+@media (min-width: $tablet) {
+margin: 0;
+display: inline-block
+}
+}

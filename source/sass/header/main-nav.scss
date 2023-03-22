@@ -6,8 +6,31 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.09);
+  @media (min-width: $tablet) {
+    min-height: 100px;
+  }
 }
-
+.time {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  @media (min-width: $tablet) {
+    flex-grow: 0;
+  }
+  }
+.hight-width-location {
+  display: flex;
+  flex-grow: 1;
+  @media (min-width: $tablet) {
+    flex-grow: 0;
+    gap: 24px;
+  }
+}
+// Перенос плейсхолдера 
+.hight-width-location .search-field .search-field__text::placeholder {
+  position: relative;
+  left: 27px;
+}
 // Кнопка меню
 .main-nav__toggle {
   width: 40px;
@@ -33,4 +56,12 @@ padding: 0;
 .main-nav__link {
 display: block;
 color: #000000;
+}
+.time {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+@media (min-width: $tablet) {
+  flex-grow: 0;
+}
 }

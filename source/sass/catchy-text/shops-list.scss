@@ -1,10 +1,18 @@
 .shops-list {
+  max-width: 100%;
   margin: 34px 0 0;
   padding: 0 0 40px;
   display: flex;
   flex-direction: column;
   gap: 14px;
   text-align: start;
+  @media (min-width: $tablet) {
+    margin: 38px 0 0;
+  }
+  @media (min-width: $desktop) {
+    padding: 0 0 0 28px;
+    margin: 0;
+  }
 }
 .shops-list__item {
   display: flex;
@@ -13,4 +21,9 @@
 }
 .shops-list__dote {
   padding: 7px 0 0;
+}
+.shops-list__text {
+  font-size: 14px;
+  line-height: 1.21;
+  color: #151516;
 }

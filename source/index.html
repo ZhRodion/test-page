@@ -18,301 +18,386 @@
 						alt="."
 					/>
 				</a>
-				<div class="time">
-					<p class="time__desc">пн-вс 10:00-21:00</p>
-					<p class="time__desc">Лента 08:00-22:00</p>
-				</div>
-				<!-- Кнопка открыть/закрыть меню -->
-				<button class="main-nav__toggle" type="button">
-					<span class="visually-hidden">Закрыть меню / Открыть меню.</span>
-					<div class="burger-button burger-button--closed">
-						<span class="burger-button__strip"></span>
-						<span class="burger-button__strip"></span>
-						<span class="burger-button__strip"></span>
+				<div class="hight-width-location">
+					<div class="time">
+						<p class="time__desc">пн-вс 10:00-21:00</p>
+						<p class="time__desc">Лента 08:00-22:00</p>
 					</div>
-				</button>
-				<!-- Само меню -->
-				<div class="main-nav__wrapper">
-					<ul class="nav-list nav-list--closed">
-						<li class="nav-list__item">
-							<div class="search-field">
-								<img
-									class="search-field__icon"
-									src="./img/svg/search/search.svg"
-								/>
-								<input
-									class="search-field__text"
-									type="text"
-									placeholder="Найти магазин"
-								/>
-							</div>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Магазины</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Кафе и рестораны</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Услуги и сервисы</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Развлечения</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">О нас</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">События</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Галерея</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Аренда</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Карта ТЦ</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Контакты</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Вакансии</a>
-						</li>
-						<li class="nav-list__item">
-							<a class="main-nav__link link" href="#">Тендеры</a>
-						</li>
-					</ul>
+					<!-- Планшет поисковая строка -->
+					<div class="search-field">
+						<img class="search-field__icon" src="./img/svg/search/search.svg" />
+						<input
+							class="search-field__text"
+							type="text"
+							placeholder="Найти магазин"
+						/>
+					</div>
+					<!-- Кнопка открыть/закрыть меню -->
+					<button class="main-nav__toggle" type="button">
+						<span class="visually-hidden">Закрыть меню / Открыть меню.</span>
+						<div class="burger-button burger-button--closed">
+							<span class="burger-button__strip"></span>
+							<span class="burger-button__strip"></span>
+							<span class="burger-button__strip"></span>
+						</div>
+					</button>
+					<!-- Само меню -->
+					<div class="main-nav__wrapper">
+						<ul class="nav-list nav-list--closed">
+							<li class="nav-list__item only-mobile">
+								<div class="search-field">
+									<img
+										class="search-field__icon"
+										src="./img/svg/search/search.svg"
+									/>
+									<input
+										class="search-field__text"
+										type="text"
+										placeholder="Найти магазин"
+									/>
+								</div>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Магазины</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Кафе и рестораны</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Услуги и сервисы</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Развлечения</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">О нас</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">События</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Галерея</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Аренда</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Карта ТЦ</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Контакты</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Вакансии</a>
+							</li>
+							<li class="nav-list__item">
+								<a class="main-nav__link link" href="#">Тендеры</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 		</header>
+		<!-- Хлебные крошки -->
+		<div class="breadcrumbs">
+			<ul class="breadcrumbs-list">
+				<li class="breadcrumbs-list__item">
+					<a class="breadcrumbs-list__link" href="#">Главная</a>
+				</li>
+				<li class="breadcrumbs-list__item">
+					<a class="breadcrumbs-list__link current--link" href="#">Аренда</a>
+				</li>
+			</ul>
+		</div>
 		<!-- Основная секция -->
 		<section class="hero">
-			<!-- Хлебные крошки -->
-			<div class="breadcrumbs">
-				<ul class="breadcrumbs-list">
-					<li class="breadcrumbs-list__item">
-						<a class="breadcrumbs-list__link" href="#">Главная</a>
+			<picture class="hero__picture">
+				<source
+					srcset="./img/hero/hero-desktop.jpg"
+					media="(min-width: 1440px)"
+				/>
+				<source srcset="./img/hero/hero-tabl.jpg" media="(min-width: 744px)" />
+				<img class="hero__image" src="./img/hero/hero-mob.jpg" alt="" />
+			</picture>
+			<div class="hight-width-text-transfer">
+				<h1 class="hero__title">Аренда в ТУЦ “Сарафан”</h1>
+				<p class="hero__subtitle">
+					Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул.
+					Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в
+					аренду от собственника от 25 до 1000 кв. м.
+				</p>
+				<a class="hero__link" href="#"
+					>Скачать презентацию
+					<img src="./img/svg/download/download.svg" alt="" />
+				</a>
+				<h2 class="hero__heading">
+					Преимущества аренды в нашем торговом центре:
+				</h2>
+				<!-- Список приемуществ -->
+				<ul class="advantages-list">
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							ТЦ «Сарафан» находится в 5 минутах езды от центра города на
+							площади Московского вокзала на одной из самых оживленных улиц
+							города – Красноармейский проспект.
+						</p>
 					</li>
-					<li class="breadcrumbs-list__item">
-						<a class="breadcrumbs-list__link" href="#">Аренда</a>
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							Рядом жилой массив, пересечение основных транспортных и пешеходных
+							потоков –конечная остановка общественного транспорта,
+							железнодорожный вокзал.
+						</p>
+					</li>
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов,
+							более 500 машиномест, удобный подъезд.
+						</p>
+					</li>
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной
+							целевой аудитории
+						</p>
+					</li>
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							Демократичные цены за аренду площади
+						</p>
+					</li>
+					<li class="advantages-list__item">
+						<img
+							class="advantages-list__dote"
+							src="./img/svg/dotes/dote.svg"
+							alt=""
+						/>
+						<p class="advantages-list__text">
+							У нас Вы можете арендовать площадь под магазины белья, одежды и
+							обуви, салоны, точки общепита и др.
+						</p>
 					</li>
 				</ul>
+				<p class="hero__desk">
+					Открытие торговой точки в одном из оживленных мест города обеспечит
+					доходность, развитие и процветание Вашего бизнеса.
+				</p>
 			</div>
-			<h1 class="hero__title">Аренда в ТУЦ “Сарафан”</h1>
-			<img class="hero__image" src="./img/hero/hero-mob.jpg" alt="" />
-			<p class="hero__subtitle">
-				Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул.
-				Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в
-				аренду от собственника от 25 до 1000 кв. м.
-			</p>
-			<a class="hero__link" href="#"
-				>Скачать презентацию
-				<img src="./img/svg/download/download.svg" alt="" />
-			</a>
 		</section>
 		<!-- Приемущества -->
 		<section class="catchy-text">
 			<h2 class="catchy-text__title">
-				Преимущества аренды в нашем торговом центре:
+				Более 130 бутиков и магазинов уже арендуют у нас помещения
 			</h2>
-			<!-- Список приемуществ -->
-			<ul class="advantages-list">
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						ТЦ «Сарафан» находится в 5 минутах езды от центра города на площади
-						Московского вокзала на одной из самых оживленных улиц города –
-						Красноармейский проспект.
-					</p>
-				</li>
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						Рядом жилой массив, пересечение основных транспортных и пешеходных
-						потоков –конечная остановка общественного транспорта,
-						железнодорожный вокзал.
-					</p>
-				</li>
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов,
-						более 500 машиномест, удобный подъезд.
-					</p>
-				</li>
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной
-						целевой аудитории
-					</p>
-				</li>
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						Демократичные цены за аренду площади
-					</p>
-				</li>
-				<li class="advantages-list__item">
-					<img
-						class="advantages-list__dote"
-						src="./img/svg/dotes/dote.svg"
-						alt=""
-					/>
-					<p class="advantages-list__text">
-						У нас Вы можете арендовать площадь под магазины белья, одежды и
-						обуви, салоны, точки общепита и др.
-					</p>
-				</li>
-			</ul>
-			<p class="catchy-text__desk">
-				Открытие торговой точки в одном из оживленных мест города обеспечит
-				доходность, развитие и процветание Вашего бизнеса.
-			</p>
-			<b class="catchy-text__lead-text"
-				>Более 130 бутиков и магазинов уже арендуют у нас помещения</b
-			>
-			<!-- Слайдер -->
-			<div class="sider-wrapper">
-				<div class="slider-container">
-					<div class="slide-element">
-						<img class="slide-element__photo" src="#" alt="" />
+			<div class="slaider-content-transfer">
+				<!-- Слайдер -->
+				<div class="sider-wrapper">
+					<div class="slider-container">
+						<div class="slide-element">
+							<img class="slide-element__photo" src="#" alt="" />
+						</div>
+						<div class="slide-element">
+							<img class="slide-element__photo" src="#" alt="" />
+						</div>
+						<div class="slide-element">
+							<img class="slide-element__photo" src="#" alt="" />
+						</div>
 					</div>
-					<div class="slide-element">
-						<img class="slide-element__photo" src="#" alt="" />
-					</div>
-					<div class="slide-element">
-						<img class="slide-element__photo" src="#" alt="" />
+					<div class="slider-control">
+						<div class="previos-arrow">
+							<img class="previos-arrow__icon" src="#" alt="" />
+						</div>
+						<div class="control-dotes">
+							<img class="control-dotes__element active--dote" src="#" />
+							<img class="control-dotes__element disable--dote" src="#" />
+							<img class="control-dotes__element disable--dote" src="#" />
+						</div>
+						<div class="next-arrow">
+							<img class="next-arrow__icon" src="#" alt="" />
+						</div>
 					</div>
 				</div>
-				<div class="slider-control">
-					<div class="previos-arrow">
-						<img class="previos-arrow__icon" src="#" alt="" />
-					</div>
-					<div class="control-dotes">
-						<img class="control-dotes__element active--dote" src="#" />
-						<img class="control-dotes__element disable--dote" src="#" />
-						<img class="control-dotes__element disable--dote" src="#" />
-					</div>
-					<div class="next-arrow">
-						<img class="next-arrow__icon" src="#" alt="" />
-					</div>
-				</div>
+				<!-- Список магазинов-->
+				<ul class="shops-list">
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис,
+							Familia, Читай город, Тутанхамон, Л'Этуаль
+						</p>
+					</li>
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri
+							Karra, Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace,
+							Tonnelli, Milavitsa, и др.
+						</p>
+					</li>
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
+						</p>
+					</li>
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая
+							сдоба
+						</p>
+					</li>
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
+						</p>
+					</li>
+					<li class="shops-list__item">
+						<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
+						<p class="shops-list__text">
+							Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры,
+							салоны штор, текстиль Missis Hatson и Home TEX, салон Арт-Самовар,
+							посуда, подарки, картины, сувениры и другие.
+						</p>
+					</li>
+				</ul>
 			</div>
-			<!-- Список магазинов-->
-			<ul class="shops-list">
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис, Familia,
-						Читай город, Тутанхамон, Л'Этуаль
-					</p>
-				</li>
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri Karra,
-						Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace, Tonnelli,
-						Milavitsa, и др.
-					</p>
-				</li>
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
-					</p>
-				</li>
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая сдоба
-					</p>
-				</li>
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
-					</p>
-				</li>
-				<li class="shops-list__item">
-					<img class="shops-list__dote" src="./img/svg/dotes/dote.svg" />
-					<p class="shops-list__text">
-						Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры,
-						салоны штор, текстиль Missis Hatson и Home TEX, салон Арт-Самовар,
-						посуда, подарки, картины, сувениры и другие.
-					</p>
-				</li>
-			</ul>
 		</section>
 		<!-- Галерея -->
 		<section class="photo-galery">
 			<h2 class="visually-hidden">Галерея нашего торгового центра</h2>
-			<!-- Статистические данные -->
-			<ol class="mall-data-list">
-				<li class="mall-data-list__item">
-					<p class="mall-data-list__caption">Общая площадь торгового центра</p>
-					<b class="mall-data-list__lead">25 816 м2</b>
-				</li>
-				<li class="mall-data-list__item">
-					<p class="mall-data-list__caption">Площадь, сдаваемая в аренду</p>
-					<b class="mall-data-list__lead">16 675 м2</b>
-				</li>
-				<li class="mall-data-list__item">
-					<p class="mall-data-list__caption">Парковка (машиномест)</p>
-					<b class="mall-data-list__lead">500</b>
-				</li>
-				<li class="mall-data-list__item">
-					<p class="mall-data-list__caption">Посещаемость (в неделю)</p>
-					<b class="mall-data-list__lead">100 000 чел</b>
-				</li>
-			</ol>
 			<!-- Сама галерея -->
 			<ul class="photo-galery-list">
+				<!-- Статистические данные -->
+				<ol class="mall-data-list">
+					<li class="mall-data-list__item">
+						<p class="mall-data-list__caption">
+							Общая площадь торгового центра
+						</p>
+						<b class="mall-data-list__lead">25 816 м2</b>
+					</li>
+					<li class="mall-data-list__item">
+						<p class="mall-data-list__caption">Площадь, сдаваемая в аренду</p>
+						<b class="mall-data-list__lead">16 675 м2</b>
+					</li>
+					<li class="mall-data-list__item">
+						<p class="mall-data-list__caption">Парковка (машиномест)</p>
+						<b class="mall-data-list__lead">500</b>
+					</li>
+					<li class="mall-data-list__item">
+						<p class="mall-data-list__caption">Посещаемость (в неделю)</p>
+						<b class="mall-data-list__lead">100 000 чел</b>
+					</li>
+				</ol>
 				<li class="photo-galery-list__item">
 					<picture class="photo-galery-list__picture">
-						<img class="photo-galery-list__photo" src="#" alt="" />
+						<source
+							srcset="./img/galery/frst-img/first-desk.jpg"
+							media="(min-width: 1440px)"
+						/>
+						<source
+							srcset="./img/galery/frst-img/first-tabl.jpg"
+							media="(min-width: 744px)"
+						/>
+						<img
+							class="photo-galery-list__photo"
+							src="./img/galery/frst-img/first-mob.jpg"
+							alt=""
+						/>
 					</picture>
 				</li>
 				<li class="photo-galery-list__item">
 					<picture class="photo-galery-list__picture">
-						<img class="photo-galery-list__photo" src="#" alt="" />
+						<source
+							srcset="./img/galery/sec-img/sec-desk.jpg"
+							media="(min-width: 1440px)"
+						/>
+						<source
+							srcset="./img/galery/sec-img/sec-tabl.jpg"
+							media="(min-width: 744px)"
+						/>
+						<img
+							class="photo-galery-list__photo"
+							src="./img/galery/sec-img/sec-mob.jpg"
+							alt=""
+						/>
 					</picture>
 				</li>
 				<li class="photo-galery-list__item">
 					<picture class="photo-galery-list__picture">
-						<img class="photo-galery-list__photo" src="#" alt="" />
+						<source
+							srcset="./img/galery/thrd-img/third-desk.jpg"
+							media="(min-width: 1440px)"
+						/>
+						<source
+							srcset="./img/galery/thrd-img/third-tabl.jpg"
+							media="(min-width: 744px)"
+						/>
+						<img
+							class="photo-galery-list__photo"
+							src="./img/galery/thrd-img/third-mob.jpg"
+							alt=""
+						/>
 					</picture>
 				</li>
 				<li class="photo-galery-list__item">
 					<picture class="photo-galery-list__picture">
-						<img class="photo-galery-list__photo" src="#" alt="" />
+						<source
+							srcset="./img/galery/frth-img/fourth-desk-hight.jpg"
+							media="(min-width: 1920px)"
+						/>
+						<source
+							srcset="./img/galery/frth-img/fourth-desk.jpg"
+							media="(min-width: 1440px)"
+						/>
+						<source
+							srcset="./img/galery/frth-img/fourth-tabl.jpg"
+							media="(min-width: 744px)"
+						/>
+						<img
+							class="photo-galery-list__photo"
+							src="./img/galery/frth-img/fourth-mob.jpg"
+							alt=""
+						/>
 					</picture>
 				</li>
 				<li class="photo-galery-list__item">
 					<picture class="photo-galery-list__picture">
-						<img class="photo-galery-list__photo" src="#" alt="" />
+						<source
+							srcset="./img/galery/ffth-img/fifth-tabl.jpg"
+							media="(min-width: 744px)"
+						/>
+						<img
+							class="photo-galery-list__photo"
+							src="./img/galery/ffth-img/fifth-mob.jpg"
+							alt=""
+						/>
 					</picture>
 				</li>
 			</ul>
@@ -324,6 +409,58 @@
 				src="./img/svg/footer-logo/footer-logo-mob.svg"
 				alt=""
 			/>
+			<!-- <div class="footer-desktop-links">
+				<ul class="footer-navigation-list">
+					<li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Магазины</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Кафе и рестораны</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Услуги и сервисы</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Развлечения</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">О нас</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">События</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Галерея</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Аренда</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Контакты</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Вакансии</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Тендеры</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link">Политика конфиденциальности</a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link"></a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link"></a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link"></a>
+          </li>
+          <li class="footer-navigation-list__item">
+            <a class="footer-navigation-list__link"></a>
+          </li>
+				</ul>
+			</div> -->
 			<!-- Поле поиска -->
 			<div class="search-field">
 				<img class="search-field__icon" src="./img/svg/search/search.svg" />

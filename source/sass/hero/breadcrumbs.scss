@@ -7,9 +7,21 @@ background-color: #ffffff;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  @media (min-width: $tablet) {
+    padding: 24px 20px 20px;
+  }
 }
 .breadcrumbs-list li:not(:last-child)::after {
   display: inline-block;
   margin: 0 8px;
+  opacity: 0.22;
   content: ">";
+}
+.breadcrumbs-list__link {
+  font-size: 14px;
+  line-height: 1.21;
+  color: #C4C4C4;
+}
+.current--link {
+  color: #000000;
 }
